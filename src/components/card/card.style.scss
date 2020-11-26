@@ -1,0 +1,52 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    text-transform: uppercase;
+    text-align: center;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+}
+
+.custom-button {
+    min-width: 165px;
+    width: 300px;
+    height: 50px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+    background-color: #6faac3;
+    color: #28c2e2;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+        background-color: #30cfd0;
+        color: black;
+        border: 1px solid black;
+    }
+}
+
+.cardlink {
+    text-decoration: none;
+}
+
+.card-img {
+    width: 200px;
+}
